@@ -1,0 +1,57 @@
+<div class="cheatsList">
+  <li onclick="expandCheat(this,1,1,);">
+    <span class="cheatTitle">EzPUBGM for (2.0)</span>
+    <div class="updateButton"
+      onclick='rdCheat("6-VkCxU-5JO90T7K5ps04kAorxtR5sbLQx89xFzYKWHxd9QW8joLVoRswMc7jgV31M4FBfVr7lP94X0VXmcbtHLrE-otmvrSwEBFuEJGXqXgNvjB-icfotrWbvTqGkZ45yFFhdWvFiYOL17zOOwT_g-sSomKAlFQAiagSRKb2g-VTsWfm2J54nYHTGPuab-8qSc33j1rHAVNz2SzU2U_YbCtVJWwAD9NkPwU6ba71h8OrnuSe9ZuAYr-sIPwZ_oxS0Rl4Ly0jxCGA7YVYM1BYxihqjxj_wLu7AvsOu_gSg85_1geL2MLrnF7ydsfF8zmrlrH-f6jxi6dA5e72jwnt9xaeHIfoXOqsQmmIXd8DrvtpF-gABTqITcyoan09a3Z.0YzJdSABt19sPTg3EHQqkbhsEGQ8JhhddTooIT2sHP0A4X1y6Vra-W-gnjLpUDe6ceHSiljYvcaKjvYrsXKqjnAgSTwQW6fzfPl8jzoEW8d_pIYvJo-K3fGnrqAgYzBC82Jh_a1ksh1XZiGJXyOda5uMyh8vmMWqcGQ41epIDEA",137)'>
+      <a class="updateAll"><i class="fas fa-arrow-down iconhacks"></i>YÜKLE</a>
+    </div>
+  </li>
+  <div class="modal fade langBox" id="updateAllBox" tabindex="-1" role="dialog" aria-labelledby="updateAllBox"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"><i class="fas fa-spinner fa-spin"></i> Loading ...</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <i class="fas fa-2x exclamation-circle"></i> <br />
+          <span class="modaltext" id="loadstatusmodal">111111</span>
+        </div>
+      </div>
+    </div>
+    <script>
+      function getStatusTextByID(id) {
+        returnText = 'Fetching Data</br>Wait Please..';
+        switch (id) {
+          case 0:
+            returnText = 'İşlem Bekleniyor';
+            break;
+          case 1:
+            returnText = 'Hile Yüklendi</br>Bu Sayfayı Kapatabilirsiniz..';
+            break;
+          case 3:
+            returnText = 'Oyun Bekleniyor</br>Lütfen Oyunu başlatın..';
+            break;
+          case 4:
+            returnText = 'Fetching Data</br>Wait Please..';
+            break;
+          case 5:
+            returnText = 'Cancelling Operation..';
+            break;
+          case 6:
+            returnText = 'Operation Cancelled..';
+            break;
+          default:
+            returnText = 'Lütfen MemoryUICore Uygulamasını Başlatın';
+            break;
+        }
+        return returnText;
+      }
+
+
+    </script>
+  </div>
+</div>
